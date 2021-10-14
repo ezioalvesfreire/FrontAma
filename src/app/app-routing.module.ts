@@ -46,6 +46,7 @@ export const routes: Routes = [
     ],
   },
   { path: '', redirectTo: 'pages', pathMatch: 'full' },
+  { path: 'ama', loadChildren: () => import('./ama/ama.module').then(m => m.AmaModule) },
   { path: '**', redirectTo: 'pages' },
 ];
 
