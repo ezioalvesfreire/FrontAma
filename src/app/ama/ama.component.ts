@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { MENU_ITEMS } from '../pages/pages-menu';
 
 
 @Component({
@@ -12,5 +13,6 @@ export class AmaComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  menu = MENU_ITEMS;
+ // public items: any;
 }
