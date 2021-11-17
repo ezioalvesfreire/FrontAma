@@ -8,11 +8,11 @@ import { MENU_ITEMS } from '../pages/pages-menu';
   styleUrls: ['./ama.component.scss']
 })
 export class AmaComponent implements OnInit {
-
+  menu = MENU_ITEMS;
   constructor() { }
 
   ngOnInit(): void {
   }
-  menu = MENU_ITEMS;
+
  // public items: any;
 }
