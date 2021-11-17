@@ -7,6 +7,8 @@ import { ThemeModule } from '../@theme/theme.module';
 import { AmaRoutingModule } from './ama-routing.module';
 import { AmaComponent } from './ama.component';
 import { ListPatientsComponent } from './list-patients/list-patients.component';
+import { NbCardModule, NbIconModule, NbInputModule } from '@nebular/theme';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 
 @NgModule({
@@ -18,7 +20,12 @@ import { ListPatientsComponent } from './list-patients/list-patients.component';
     CommonModule,
     AmaRoutingModule,
     ThemeModule,
-    NbMenuModule
+    NbMenuModule,
+    NbCardModule,
+    NbIconModule,
+    NbInputModule,
+    Ng2SmartTableModule
+
   ]
 })
 export class AmaModule { }

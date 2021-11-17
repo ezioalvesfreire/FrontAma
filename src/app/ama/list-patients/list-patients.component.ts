@@ -3,6 +3,7 @@ import { LocalDataSource } from 'ng2-smart-table';
 
 import { SmartTableData } from '../../@core/data/smart-table';
 
+
 @Component({
   selector: 'ngx-list-patients',
   templateUrl: './list-patients.component.html',
