@@ -9,12 +9,16 @@ import { AmaComponent } from './ama.component';
 import { ListPatientsComponent } from './list-patients/list-patients.component';
 import { NbCardModule, NbIconModule, NbInputModule } from '@nebular/theme';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
+import { ListDoctorComponent } from './list-doctor/list-doctor.component';
+
 
 
 @NgModule({
   declarations: [
     AmaComponent,
-    ListPatientsComponent
+    ListPatientsComponent,
+    ListDoctorComponent
+
   ],
   imports: [
     CommonModule,

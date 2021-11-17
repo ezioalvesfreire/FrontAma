@@ -14,11 +14,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'PACIENTES',
-        link: '/pages/forms/inputs',
+        link: '/ama/list-patients',
       },
       {
         title: 'MÉDICOS',
-        link: '/pages/forms/inputs',
+        link: '/ama/list-doctor',
       },
       {
         title: 'TERAPEUTAS',
