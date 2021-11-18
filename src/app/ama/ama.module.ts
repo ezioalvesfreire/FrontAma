@@ -10,6 +10,7 @@ import { ListPatientsComponent } from './list-patients/list-patients.component';
 import { NbCardModule, NbIconModule, NbInputModule } from '@nebular/theme';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { ListDoctorComponent } from './list-doctor/list-doctor.component';
+import { ListTherapistsComponent } from './list-therapists/list-therapists.component';
 
 
 
@@ -17,7 +18,8 @@ import { ListDoctorComponent } from './list-doctor/list-doctor.component';
   declarations: [
     AmaComponent,
     ListPatientsComponent,
-    ListDoctorComponent
+    ListDoctorComponent,
+    ListTherapistsComponent
 
   ],
   imports: [
