@@ -12,12 +12,12 @@ import { SmartTableData } from '../../@core/data/smart-table-patients';
 export class ListPatientsComponent implements OnInit {
 
   settings = {
-   /* add: {
+    add: {
       addButtonContent: '<i class="nb-plus"></i>',
       createButtonContent: '<i class="nb-checkmark"></i>',
       cancelButtonContent: '<i class="nb-close"></i>',
-    },*/
-    hideSubHeader: true,
+    },
+   // hideSubHeader: true,
     noDataMessage: "Não há nenhum dados para exibir",
     actions: {
         position: "right",
@@ -40,25 +40,29 @@ export class ListPatientsComponent implements OnInit {
         title: 'ID',
         type: 'number',
       },
-      firstName: {
+      Nome: {
         title: 'Nome',
         type: 'string',
       },
-      lastName: {
-        title: 'Sobrenome',
+      Sexo: {
+        title: 'Sexo',
         type: 'string',
       },
-      username: {
-        title: 'Username',
+      DataDeNascimento: {
+        title: 'Data de Nascimento',
         type: 'string',
       },
-      email: {
-        title: 'E-mail',
+      NomeDoResponsavel: {
+        title: 'Nome do Responsável',
         type: 'string',
       },
-      age: {
-        title: 'Idade',
+      Fone: {
+        title: 'Fone',
         type: 'number',
+      },
+      TipoSanguineo: {
+        title: 'Tipo Sanguineo',
+        type: 'String',
       },
     },
   };

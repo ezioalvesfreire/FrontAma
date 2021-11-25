@@ -31,25 +31,13 @@ export class ListDoctorComponent implements OnInit {
         title: 'ID',
         type: 'number',
       },
-      firstName: {
-        title: 'First Name',
+      Nome: {
+        title: 'Nome',
         type: 'string',
       },
-      lastName: {
-        title: 'Last Name',
-        type: 'string',
-      },
-      username: {
-        title: 'Username',
-        type: 'string',
-      },
-      email: {
-        title: 'E-mail',
-        type: 'string',
-      },
-      age: {
-        title: 'Age',
-        type: 'number',
+      CRM: {
+        title: 'CRM',
+        type: 'int',
       },
     },
   };

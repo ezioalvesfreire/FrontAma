@@ -6,19 +6,13 @@ export class SmartTableServiceDoctors extends SmartTableDataDoctors {
 
   data = [{
     id: 1,
-    firstName: 'Mark',
-    lastName: 'Otto',
-    username: '@mdo',
-    email: 'mdo@gmail.com',
-    age: '28',
+    Nome: 'Mark',
+    CRM: '28',
   },
    {
     'id': 2,
-    'firstName': 'Ezio',
-    'lastName': 'Alves Freire',
-    'username': '@freire',
-    'email': 'alves@freire.com',
-    'age': 29,
+    'Nome': 'Ezio',
+    'CRM': 29,
   }];
 
   getData() {
