@@ -22,7 +22,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       },
       {
         title: 'TERAPEUTAS',
-        link: '/pages/forms/inputs',
+        link: '/ama/list-therapists',
       },
     ],
   },

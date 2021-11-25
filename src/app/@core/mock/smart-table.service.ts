@@ -424,6 +424,13 @@ export class SmartTableService extends SmartTableData {
     'username': '@Sanchez',
     'email': 'lousanchez@comtours.com',
     'age': 16,
+  }, {
+    'id': 61,
+    'firstName': 'Ezio',
+    'lastName': 'Alves Freire',
+    'username': '@freire',
+    'email': 'alves@freire.com',
+    'age': 29,
   }];
 
   getData() {
