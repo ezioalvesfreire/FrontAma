@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { LocalDataSource } from 'ng2-smart-table';
-import {SmartTableData } from '../../@core/data/smart-table';
+import {SmartTableDataTherapists } from '../../@core/data/smart-table-therapists';
 
 
 @Component({
@@ -56,7 +56,7 @@ export class ListTherapistsComponent implements OnInit {
 
   source: LocalDataSource = new LocalDataSource();
 
-  constructor(private service: SmartTableData) {
+  constructor(private service: SmartTableDataTherapists) {
     const data = this.service.getData();
     this.source.load(data);
    }

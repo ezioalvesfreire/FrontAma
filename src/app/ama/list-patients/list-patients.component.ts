@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LocalDataSource } from 'ng2-smart-table';
 
-import { SmartTableData } from '../../@core/data/smart-table';
+import { SmartTableData } from '../../@core/data/smart-table-patients';
 
 
 @Component({

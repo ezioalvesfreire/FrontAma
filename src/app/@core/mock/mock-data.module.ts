@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { UserService } from './users.service';
 import { ElectricityService } from './electricity.service';
-import { SmartTableService } from './smart-table.service';
+import { SmartTableService } from './smart-table.service-patients';
 import { UserActivityService } from './user-activity.service';
 import { OrdersChartService } from './orders-chart.service';
 import { ProfitChartService } from './profit-chart.service';
@@ -21,11 +21,15 @@ import { CountryOrderService } from './country-order.service';
 import { StatsProgressBarService } from './stats-progress-bar.service';
 import { VisitorsAnalyticsService } from './visitors-analytics.service';
 import { SecurityCamerasService } from './security-cameras.service';
+import { SmartTableServiceDoctors } from './smart-table-service-doctors';
+import { SmartTableServiceTherapists } from './smart-table-service-therapists';
 
 const SERVICES = [
   UserService,
   ElectricityService,
   SmartTableService,
+  SmartTableServiceDoctors,
+  SmartTableServiceTherapists,
   UserActivityService,
   OrdersChartService,
   ProfitChartService,
