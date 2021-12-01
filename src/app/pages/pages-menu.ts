@@ -3,32 +3,51 @@ import { NbMenuItem } from '@nebular/theme';
 export const MENU_ITEMS: NbMenuItem[] = [
 
   {
-    title: 'GERENCIAMENTO DE USUÁRIOS',
-    group: true,
+    title: 'AMA',
+    icon: 'heart-outline',
+    group: true
   },
   //-----------------------------------------
 
   {
-    title: 'AMA',
-    icon: 'heart-outline',
+    title: 'CADASTRO DE USUÁRIOS',
+    // icon: 'heart-outline',
     children: [
       {
         title: 'PACIENTES',
-        link: '/ama/list-patients',
+        link: '/ama/list-patients'
       },
       {
         title: 'MÉDICOS',
-        link: '/ama/list-doctor',
+        link: '/ama/list-doctor'
       },
       {
         title: 'TERAPEUTAS',
-        link: '/ama/list-therapists',
+        link: '/ama/list-therapists'
       },
     ],
   },
 
 
   //---------------------------------------
+
+  {
+    title: 'SESSÕES',
+    // icon: 'heart-outline',
+    children: [
+      {
+        title: 'AGENDAR SESSÃO',
+        link: '/ama/create-session'
+      },
+      {
+        title: 'CONSULTAR AGENDAMENTO',
+        link: '/ama/consult-session'
+      },
+
+    ],
+  },
+
+//-------------------------------------------
 
   {
     title: 'Layout',

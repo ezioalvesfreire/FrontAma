@@ -11,6 +11,8 @@ import { NbCardModule, NbIconModule, NbInputModule } from '@nebular/theme';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 import { ListDoctorComponent } from './list-doctor/list-doctor.component';
 import { ListTherapistsComponent } from './list-therapists/list-therapists.component';
+import { CreateSessionComponent } from './create-session/create-session.component';
+import { ConsultSessionComponent } from './consult-session/consult-session.component';
 
 
 
@@ -19,7 +21,9 @@ import { ListTherapistsComponent } from './list-therapists/list-therapists.compo
     AmaComponent,
     ListPatientsComponent,
     ListDoctorComponent,
-    ListTherapistsComponent
+    ListTherapistsComponent,
+    CreateSessionComponent,
+    ConsultSessionComponent
 
   ],
   imports: [
