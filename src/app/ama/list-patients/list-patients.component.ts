@@ -22,7 +22,7 @@ export class ListPatientsComponent implements OnInit {
     actions: {
         position: "right",
         columnTitle: "Ações",
-       // add: false,
+        add: false,
        // edit: false,
         //delete: false
     },
@@ -84,5 +84,7 @@ export class ListPatientsComponent implements OnInit {
       event.confirm.reject();
     }
   }
+    selectedGenero = '';
+    selectedTsanguineo = '';
 
 }
