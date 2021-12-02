@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ConsultSessionComponent } from './consult-session.component';
+import { GrSessionComponent } from './gr-session.component';
 
-describe('ConsultSessionComponent', () => {
-  let component: ConsultSessionComponent;
-  let fixture: ComponentFixture<ConsultSessionComponent>;
+describe('GrSessionComponent', () => {
+  let component: GrSessionComponent;
+  let fixture: ComponentFixture<GrSessionComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ConsultSessionComponent ]
+      declarations: [ GrSessionComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ConsultSessionComponent);
+    fixture = TestBed.createComponent(GrSessionComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

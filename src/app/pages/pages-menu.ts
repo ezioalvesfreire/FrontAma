@@ -32,18 +32,13 @@ export const MENU_ITEMS: NbMenuItem[] = [
   //---------------------------------------
 
   {
-    title: 'SESSÕES',
+    title: 'SESSÃO',
     // icon: 'heart-outline',
     children: [
       {
-        title: 'AGENDAR SESSÃO',
-        link: '/ama/create-session'
-      },
-      {
-        title: 'CONSULTAR AGENDAMENTO',
-        link: '/ama/consult-session'
-      },
-
+        title: 'GERENCIAR SESSÃO',
+        link: '/ama/gr-session'
+      }
     ],
   },
 

@@ -17,6 +17,8 @@ import { ElectricityData } from './data/electricity';
 import { SmartTableData } from './data/smart-table-patients';
 import { SmartTableDataDoctors } from './data/smart-table-doctors';
 import { SmartTableDataTherapists } from './data/smart-table-therapists';
+import { SmartTableDataGrSession } from './data/smart-table-gr-session';
+
 import { UserActivityData } from './data/user-activity';
 import { OrdersChartData } from './data/orders-chart';
 import { ProfitChartData } from './data/profit-chart';
@@ -39,6 +41,7 @@ import { ElectricityService } from './mock/electricity.service';
 import { SmartTableService } from './mock/smart-table.service-patients';
 import { SmartTableServiceDoctors } from './mock/smart-table-service-doctors';
 import { SmartTableServiceTherapists } from './mock/smart-table-service-therapists';
+import { SmartTableServiceGrSession } from './mock/smart-table-service-gr-session';
 import { UserActivityService } from './mock/user-activity.service';
 import { OrdersChartService } from './mock/orders-chart.service';
 import { ProfitChartService } from './mock/profit-chart.service';
@@ -56,6 +59,8 @@ import { StatsProgressBarService } from './mock/stats-progress-bar.service';
 import { VisitorsAnalyticsService } from './mock/visitors-analytics.service';
 import { SecurityCamerasService } from './mock/security-cameras.service';
 import { MockDataModule } from './mock/mock-data.module';
+
+
 
 
 
@@ -85,6 +90,7 @@ const DATA_SERVICES = [
   { provide: SmartTableData, useClass: SmartTableService },
   { provide: SmartTableDataDoctors, useClass: SmartTableServiceDoctors },
   { provide: SmartTableDataTherapists, useClass: SmartTableServiceTherapists },
+  { provide: SmartTableDataGrSession, useClass: SmartTableServiceGrSession },
   { provide: UserActivityData, useClass: UserActivityService },
   { provide: OrdersChartData, useClass: OrdersChartService },
   { provide: ProfitChartData, useClass: ProfitChartService },
