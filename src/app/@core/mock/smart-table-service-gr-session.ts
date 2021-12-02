@@ -6,21 +6,21 @@ export class SmartTableServiceGrSession extends SmartTableDataGrSession {
 
   data = [{
     id: 1,
-    DataTimeStart: '27/09/2021 14:00',
-    DataTimeEnd: '27/09/2021 18:00',
-    PatientId: 2,
-    TerapistsId: 2,
-    SessaoRealizada:1,
-    Notes: 'Blá blá blá'
+    dataTimeStart: '27/09/2021 14:00',
+    dataTimeEnd: '27/09/2021 18:00',
+    patientId: 2,
+    terapistsId: 2,
+    sessaoRealizada:1,
+    notes: 'Blá blá blá'
   },
    {
     id: 2,
-    DataTimeStart: '27/09/2021 14:00',
-    DataTimeEnd: '27/09/2021 18:00',
-    PatientId: 2,
-    TerapistsId: 2,
-    SessaoRealizada:1,
-    Notes: 'Qualquer coisa'
+    dataTimeStart: '27/09/2021 14:00',
+    dataTimeEnd: '27/09/2021 18:00',
+    patientId: 3,
+    terapistsId: 2,
+    sessaoRealizada:1,
+    notes: 'Qualquer coisa'
   }];
 
   getData() {

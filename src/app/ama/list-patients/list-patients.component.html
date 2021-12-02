@@ -1,13 +1,16 @@
 <!--código herdado de smart-table.html -->
-<nb-card>
-  <nb-card-header>
-  PACIENTES
-  </nb-card-header>
 
-  <nb-card-body>
-    <ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)">
-    </ng2-smart-table>
-  </nb-card-body>
-</nb-card>
-
+<nb-tabset>
+  <nb-tab tabTitle="PACIENTES">
+      <nb-card>
+      <nb-card-body>
+        <ng2-smart-table [settings]="settings" [source]="source" (deleteConfirm)="onDeleteConfirm($event)">
+        </ng2-smart-table>
+      </nb-card-body>
+    </nb-card>
+  </nb-tab>
+  <nb-tab tabTitle="CADASTRAR">
+    Tab content 2
+  </nb-tab>
+</nb-tabset>
 

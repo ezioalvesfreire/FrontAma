@@ -28,7 +28,7 @@ export class ListTherapistsComponent implements OnInit {
     },
     columns: {
       id: {
-        title: 'ID',
+        title: 'CÓD.',
         type: 'number',
       },
       Nome: {

@@ -37,7 +37,7 @@ export class ListPatientsComponent implements OnInit {
     },
     columns: {
       id: {
-        title: 'ID',
+        title: 'CÓD.',
         type: 'number',
       },
       Nome: {

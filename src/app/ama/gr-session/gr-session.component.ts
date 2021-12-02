@@ -28,8 +28,28 @@ export class GrSessionComponent implements OnInit {
     },
     columns: {
       id: {
-        title: 'ID',
+        title: 'CÓD. SESSÃO',
         type: 'number',
+      },
+      patientId: {
+        title: 'CÓD. PACIENTE',
+        type: 'String',
+      },
+      terapistsId: {
+        title: 'CÓD. TERAPEUTA',
+        type: 'number',
+      },
+      dataTimeStart: {
+        title: 'INÍCIO',
+        type: 'String',
+      },
+      dataTimeEnd: {
+        title: 'FIM',
+        type: 'String',
+      },
+      sessaoRealizada: {
+        title: 'REALIZADA',
+        type: 'String',
       }
     },
   };
